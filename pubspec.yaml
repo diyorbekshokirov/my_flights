@@ -1,0 +1,63 @@
+name: my_flights
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+   - family: Outfit
+     fonts:
+       - asset: assets/fonts/Outfit-SemiBold.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+   - family: Overpass
+     fonts:
+       - asset: assets/fonts/Overpass-Light.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+   - family: Regular
+     fonts:
+       - asset: assets/fonts/Outfit-Regular.ttf
+
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
