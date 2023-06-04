@@ -483,6 +483,11 @@ class _HomePageState extends State<HomePage> {
 
       /// floatingActionButton
       floatingActionButton: GestureDetector(
+        onTap: (){
+          Navigator.of(context)
+              .pushNamed(PageTwo.id);
+          setState(() {});
+        },
         child: Stack(
           alignment: Alignment.center,
           children: [
